@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form autocomplete="on" action="login.php" method="post" class="mt-5">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Login Page</h2>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="id">Id Number</label>
+                        <input type="number" id="id" name="id" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pass">Password</label>
+                        <input type="password" id="pass" name="pass" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </div>
+            </div>
+        </form>
+        <div class="text-center mt-4">
+            <img src="Images/login.jpg" alt="Login Image" class="img-fluid">
+        </div>
+        <div class="text-center mt-3">
+            <a href="home.html" class="btn btn-secondary">Back</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
